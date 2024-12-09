@@ -4,7 +4,7 @@ rm -rf cbinding/install
 rm -rf pybinding
 
 REPO=guyutongxue/genius-invokation
-RUN_ID=12219664086
+RUN_ID=12229929347
 
 if [ ! -d "pybinding" ]; then
 	gh run download ${RUN_ID} \
